@@ -10,10 +10,12 @@ A Python notebook for automated analysis of cyclic tensile test data from <span 
 - Calculation of mechanical properties:
   - Hysteresis energy
   - Elastic (Young's) modulus
+  - Loss coefficient
   - Stress and strain ranges
-- Signal-to-noise ratio assessment
+- Signal-to-noise ratio assessment and automatic smoothing for noisy data
 - Customizable stress-strain curve visualization
-- Choice of integration methods for hysteresis calculations
+- Choice of integration methods for hysteresis calculations (Shoelace or Trapezoidal)
+- Auto-detection of loading start and automatic column mapping from CSV header
 
 ## Input Requirements
 
@@ -24,22 +26,25 @@ The notebook accepts <span style="color:red">**Instron-generated CSV files**</sp
 - Tensile strain (%)
 - Tensile stress (MPa)
 
+*Note: If column names differ slightly, the notebook will attempt to match them automatically.*
+
 ## Usage
 
-1. Click the "Open in Colab" badge above
-2. Run all cells using `Runtime > Run all`
-3. Upload your CSV file when prompted
+1. Click the "Open in Colab" badge above  
+2. Run all cells using `Runtime > Run all`  
+3. Upload your CSV file when prompted  
 4. Select your preferred:
    - Integration method (Shoelace or Trapezoidal)
    - Color scale for visualization (Grayscale, Maroon, or Gold)
 
 ## Outputs
 
-- Stress-strain plots with cycle-based coloring
+- Stress-strain plots with cycle-based coloring and large-font labels
 - CSV file containing cycle statistics:
-  - Signal-to-noise ratio
-  - Hysteresis energy
-  - Elastic modulus
+  - Signal-to-noise ratio (dB)
+  - Hysteresis energy (MJ/m³)
+  - Elastic modulus (MPa)
+  - Loss coefficient (dimensionless)
   - Stress/strain ranges
 
 ## Important Notes
