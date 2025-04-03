@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJQlW4wBg_2Gf00Zuq0MDDVkDpR5o60_?usp=sharing)
 
-A Python notebook for automated analysis of cyclic tensile test data from <span style="color:red">**Instron-generated CSV files**</span>, providing key mechanical properties and generating stress-strain visualizations.
+A Python notebook for automated analysis of cyclic tensile test data from **Instron-generated CSV files**, providing key mechanical properties and generating stress-strain visualizations.
 
 ## Features
 
@@ -19,7 +19,7 @@ A Python notebook for automated analysis of cyclic tensile test data from <span 
 
 ## Input Requirements
 
-The notebook accepts <span style="color:red">**Instron-generated CSV files**</span> with the following columns:
+The notebook accepts **Instron-generated CSV files** with the following columns:
 - Time (s)
 - Displacement (mm)
 - Force (kN)
@@ -49,11 +49,11 @@ The notebook accepts <span style="color:red">**Instron-generated CSV files**</sp
 
 ## Important Notes
 
-<span style="color:pink">**Note: If any of the cycles in your data have a signal-to-noise ratio of < 13 dB, you need to treat these calculations with caution and independently verify their accuracy.**</span>
+**Note: If any of the cycles in your data have a signal-to-noise ratio of < 13 dB, you need to treat these calculations with caution and independently verify their accuracy.**
 
 ## Author
 
-Created by <span style="color:cyan">**Logan Hessefort**</span> at the <span style="color:gold">Center for Sustainable Macromolecular Materials and Manufacturing, Arizona State University</span>. Supported by NSF EFRI award #213218.
+Created by **Logan Hessefort** at the Center for Sustainable Macromolecular Materials and Manufacturing, Arizona State University. Supported by NSF EFRI award #213218.
 
 ## Contact
 - [LinkedIn Profile](https://www.linkedin.com/in/logan-hessefort/)
