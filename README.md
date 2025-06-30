@@ -1,4 +1,4 @@
-# Cyclic Tensile Test Analysis
+# Automatic Cyclic Tensile Analysis
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJQlW4wBg_2Gf00Zuq0MDDVkDpR5o60_?usp=sharing)
 
