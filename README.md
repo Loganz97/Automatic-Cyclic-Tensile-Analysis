@@ -1,6 +1,8 @@
 # Automatic Cyclic Tensile Analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJQlW4wBg_2Gf00Zuq0MDDVkDpR5o60_?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJQlW4wBg_2Gf00Zuq0MDDVkDpR5o60_?usp=sharing) 
+[![DOI](https://img.shields.io/badge/DOI-10.1039%2FD5PY00445D-blue)](https://doi.org/10.1039/D5PY00445D)
+
 
 A Python notebook for automated analysis of cyclic tensile test data from **Instron-generated CSV files**, providing key mechanical properties and generating stress-strain visualizations.
 
@@ -44,7 +46,7 @@ The notebook accepts **Instron-generated CSV files** with the following columns:
   - Signal-to-noise ratio (dB)
   - Hysteresis energy (MJ/m³)
   - Elastic modulus (MPa)
-  - Loss coefficient (dimensionless)
+  - Loss coefficient (dimensionless) (which is the method from https://doi.org/10.1016/j.actbio.2018.09.027)
   - Stress/strain ranges
 
 ## Important Notes
